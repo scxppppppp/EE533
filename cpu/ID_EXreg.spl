@@ -1,0 +1,26 @@
+[Inputs]
+ID_mem_ctrl
+clk
+reset
+=ID_data0[63:0]=
+=ID_data1[63:0]=
+=ID_br_ctrl[1:0]=
+=ID_dest[4:0]=
+=ID_br_addr[9:0]=
+=ID_alu_ctrl[5:0]=
+=ID_wb_ctrl[1:0]=
+=ID_tid[1:0]=
+[Outputs]
+EX_mem_ctrl
+=EX_d0[63:0]=
+=EX_d1[63:0]=
+=EX_br_ctrl[1:0]=
+=EX_dest[4:0]=
+=EX_br_addr[9:0]=
+=EX_alu_ctrl[5:0]=
+=EX_wb_ctrl[1:0]=
+=EX_tid[1:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ID_EXreg
+
